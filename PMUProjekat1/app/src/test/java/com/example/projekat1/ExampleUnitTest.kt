@@ -1,4 +1,4 @@
-package com.example.pmuprojekat
+package com.example.projekat1
 
 import org.junit.Test
 

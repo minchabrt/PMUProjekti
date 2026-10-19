@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PMUProjekat"
+rootProject.name = "Projekat1"
 include(":app")

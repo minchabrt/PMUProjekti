@@ -1,4 +1,4 @@
-package com.example.pmuprojekat.ui.theme
+package com.example.projekat1.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -34,7 +34,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun PMUProjekatTheme(
+fun Projekat1Theme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

@@ -1,4 +1,4 @@
-package com.example.pmuprojekat.ui.theme
+package com.example.projekat1.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,4 +1,4 @@
-package com.example.pmuprojekat.ui.theme
+package com.example.projekat1.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

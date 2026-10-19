@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.pmuprojekat"
+    namespace = "com.example.projekat1"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.pmuprojekat"
+        applicationId = "com.example.projekat1"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
