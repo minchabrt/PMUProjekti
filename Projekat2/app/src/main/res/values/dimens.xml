@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Text_SIze">96sp</dimen>
+    <dimen name="Padding_Top">8dp</dimen>
+    <dimen name="Margin_Top">14dp</dimen>
+</resources>
