@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/naslovFragment" android:title="Početna" />
+    <item android:id="@+id/monopolFragment" android:title="Monopol" />
+    <item android:id="@+id/tekstFragment" android:title="Prikaz teksta" />
+    <item android:id="@+id/iksOksFragment" android:title="IksOks" />
+</menu>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/naslovFragment">
+
+    <fragment
+        android:id="@+id/naslovFragment"
+        android:name="com.example.pristupdomacimaapp.NaslovFragment"
+        android:label="Početna"
+        tools:layout="@layout/fragment_naslov">
+        <action
+            android:id="@+id/action_naslov_to_monopol"
+            app:destination="@id/monopolFragment" />
+        <action
+            android:id="@+id/action_naslov_to_tekst"
+            app:destination="@id/tekstFragment" />
+        <action
+            android:id="@+id/action_naslov_to_iksOks"
+            app:destination="@id/iksOksFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/monopolFragment"
+        android:name="com.example.pristupdomacimaapp.MonopolFragment"
+        android:label="Monopol"
+        tools:layout="@layout/fragment_monopol">
+        <action
+            android:id="@+id/action_monopol_to_naslov"
+            app:destination="@id/naslovFragment"
+            app:popUpTo="@id/naslovFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tekstFragment"
+        android:name="com.example.pristupdomacimaapp.TekstFragment"
+        android:label="Prikaz teksta"
+        tools:layout="@layout/fragment_tekst">
+        <action
+            android:id="@+id/action_tekst_to_naslov"
+            app:destination="@id/naslovFragment"
+            app:popUpTo="@id/naslovFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/iksOksFragment"
+        android:name="com.example.pristupdomacimaapp.IksOksFragment"
+        android:label="IksOks"
+        tools:layout="@layout/fragment_iks_oks">
+        <action
+            android:id="@+id/action_iksOks_to_naslov"
+            app:destination="@id/naslovFragment"
+            app:popUpTo="@id/naslovFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.pristupdomacimaapp.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+</navigation>
